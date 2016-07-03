@@ -1,25 +1,14 @@
-.en {
+body {
   max-width: 1000px;
   margin-left: auto;
   margin-right:auto;
 }
 
-.zh {
-  -ms-writing-mode: tb-rl;
-  -webkit-writing-mode: vertical-rl;
-  -ms-writing-mode: vertical-rl;
-  writing-mode: vertical-rl;
-}
-
-.en .content {
+.content {
   font-family: Georgia, serif;
 }
 
-.zh .content {
-  font-size: 20px;
-}
-
-.en .footer img {
+.footer img {
   padding-bottom: 10px;
 }
 
@@ -39,18 +28,10 @@ a {
   color:blue;
 }
 
-.zh a {
-  text-decoration:none;
-}
-
 .ref {
   text-decoration:none;
   color:red;
   font-weight: bold;
-}
-
-.zh .ref {
-  cursor: default; /* in-page links don't seem to work with vertical text, so make them look like they're not links */
 }
 
 .important {
@@ -90,18 +71,4 @@ a {
     height: 7vw;
   }
 
-}
-
-@-moz-document url-prefix() {
-  /* This section for chinese page on firefox; firefox refuses to display vertical text */
-
-  .zh {
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right:auto;
-  }
-
-  .zh .footer img {
-    padding-bottom: 10px;
-  }
 }
