@@ -74,11 +74,10 @@ a {
   h2 {
     padding-top: initial;
     margin-bottom: 1vw;
-    font-size: 5vw;
   }
 
   .map-container {
-    margin-bottom: 100px;
+    margin-bottom: 25px;
   }
 
   main {
