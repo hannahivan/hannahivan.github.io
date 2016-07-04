@@ -39,6 +39,11 @@ h2 {
   font-family: 'Shift', sans-serif;
 }
 
+h3 {
+  font-family: 'Shift', sans-serif;
+  color: black;
+}
+
 a {
   color: blue;
   text-decoration: none;
