@@ -11,10 +11,6 @@ main {
 }
 
 header {
-  /*background-image: url(../img/header.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 606px;*/
   position: relative;
 }
 
@@ -24,7 +20,7 @@ header img {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 75px;
   color: white;
   font-family: 'Shift', sans-serif;
   top: 50%;
