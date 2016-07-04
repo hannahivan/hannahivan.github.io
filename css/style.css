@@ -68,7 +68,7 @@ a {
   /* necessary to support iphone */
 
   h1 {
-    font-size: 8vw;
+    font-size: 9vw;
   }
 
   h2 {
@@ -78,7 +78,7 @@ a {
   }
 
   .map-container {
-    margin-bottom: 10px;
+    padding-bottom: 100px;
   }
 
   main {
