@@ -63,23 +63,3 @@ a {
   top: 0;
   width: 100%;
 }
-
-@media screen and (max-device-width: 600px) {
-  /* This section for mobile phones; only necessary because of bloody iphones */
-
-  h1 {
-    vertical-align: middle;
-    font-size: 5.9vw;
-  }
-
-  h2 {
-    padding-top: initial;
-    margin-bottom: 1vw;
-    font-size: 5vw;
-  }
-
-  main {
-    margin-left: 1vw;
-    margin-right: 1vw;
-  }
-}
