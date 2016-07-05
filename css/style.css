@@ -64,6 +64,10 @@ a {
   width: 100%;
 }
 
+table.schedule td:last-child {
+  padding-left: 20px;
+}
+
 @media screen and (max-device-width: 600px) {
   /* necessary to support iphone */
 
@@ -83,5 +87,9 @@ a {
   main {
     margin-left: 1vw;
     margin-right: 1vw;
+  }
+
+  table.schedule td:last-child {
+    padding-left: 2vw;
   }
 }
