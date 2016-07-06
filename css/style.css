@@ -93,7 +93,7 @@ table.schedule td:last-child {
     padding-left: 2vw;
   }
 
-  table.schedule tr:not(:last-child) {
+  table.schedule tr:not(:last-child) td {
     padding-bottom: 3vw;
   }
 }
